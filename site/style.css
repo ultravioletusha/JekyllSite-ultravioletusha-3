@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 :root{
-	--main-background: #0b0c0f;
+	--main-background: #b5c3eb;
 	--main-fonts-color: #fff;
-	--main-decor-color:#00a9e2;
-    --main-header-background:#21252e;
+	--main-decor-color:#4b37ff;
+    --main-header-background:#8790e5;
 	--main-font-family: 'Poppins', sans-serif;
 }
 
@@ -74,7 +74,7 @@ a.nav-link{
 }
 
 .nav-link:hover {
-	color: #000000;
+	color: #8790e5;
     background: var(--main-decor-color);
 }
 
@@ -93,7 +93,7 @@ a.nav-link{
 }
 
 #home .filter{
-	background: url('https://images.unsplash.com/photo-1544099858-75feeb57f01b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') no-repeat;
+	background: url('https://replit.com/@ICOM101/JekyllSite-ultravioletusha-3#site/1 - Portrait of Me.PNG') no-repeat;
 	background-size: cover;
 	background-position:center;
     position: absolute;
@@ -101,7 +101,7 @@ a.nav-link{
     bottom: 0;
     left: 0;
     right: 0;
-	opacity:.20;
+	opacity:100;
 }  
 
 .intro {
@@ -113,20 +113,20 @@ a.nav-link{
 }
 
 .intro  p{
-    margin: 5px;
+    margin: -10px;
 	font-size:1.2rem;
 	font-family: var(--main-font-family);
 	text-align:center;
 }
 
  h3{
-	padding-bottom: 15px;
+	padding-bottom: 20px;
     letter-spacing: normal;
     font-family: var(--main-font-family);
 	font-style: normal;
 	font-size: 60px;
 	color: var(--main-fonts-color);
-	text-shadow: 0px 0px 40px var(--main-decor-color);
+	//text-shadow: 0px 0px 40px var(--main-decor-color);
 }
 
 
@@ -156,7 +156,7 @@ a.nav-link{
 
 .social-media  a:hover {
 	color: var(--main-decor-color);
-	text-shadow: 0 0 50px var(--main-decor-color);
+	//text-shadow: 0 0 50px var(--main-decor-color);
 }
 
 /*──────────────────
